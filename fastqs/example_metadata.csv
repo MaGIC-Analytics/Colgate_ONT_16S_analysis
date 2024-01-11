@@ -1,0 +1,2 @@
+sample_name,sample type,library_type,sequencing_configuration,sequencing_length,input_quality,input_quantity,raw_reads,# Add columns to expand the metadata,group,tissue_source
+Example_RNA1,RNAseq,PolyA selection,Paired end,150bp,RIN 8,2.5 ug,40000000,And fill in as needed per experiment,control,pbmc
