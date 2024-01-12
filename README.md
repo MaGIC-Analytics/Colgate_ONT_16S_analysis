@@ -1,3 +1,3 @@
-# Project_template
+# 16S Analysis of Oral Microbiome Data using ONT sequencing
 
-Template directory structure for projects at MaGIC. To initialize a project, it is highly recommended to download this repository as a framework for directory structure. 
+Project description. 
