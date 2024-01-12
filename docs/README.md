@@ -1,3 +1,3 @@
 # Document directory
 
-The directory for all output documents. This can be methods you need to write up, reports, presentations etc. 
+The html document outlines the steps for primary analysis and results from secondary analysis. 
