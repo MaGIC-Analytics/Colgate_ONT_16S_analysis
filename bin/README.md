@@ -1,3 +1,6 @@
 # bin
 
-For storing any associated binary files. If you arent building any novel programs, this should include a file list of software (with version), or more likely a dockerfile and/or package manager information. An example is provided. 
+Primary analysis was run via the Nextflow workflow: https://github.com/MessyaszA/ONT_demux
+Dockerfile for setting up R environment to run secondary analysis. 
+
+Code for building the HOMD 16S database can be found in: 
