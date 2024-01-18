@@ -1,3 +1,3 @@
 # Analysis directory
 
-This directory holds all analysis and results files from primary and secondary analysis. 
+This directory is split up into primary and secondary analysis. Each directory outlines how to execute the analysis or how to find the results. 
