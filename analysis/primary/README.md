@@ -20,4 +20,6 @@ A tutorial on executing ONT_demux can be [found here](https://github.com/Messyas
 - Demultiplexing (barcoding) with [guppy](https://community.nanoporetech.com/protocols/Guppy-protocol/v/gpb_2003_v1_revt_14dec2018)
 - Sample and trimming QC with [pycoQC](https://adrienleger.com/pycoQC/), [fastp](https://github.com/OpenGene/fastp), [NanoPlot](https://github.com/wdecoster/NanoPlot), and [Chopper](https://github.com/wdecoster/chopper).
 - Predictive QC and contaminant detection with [Kraken2](https://ccb.jhu.edu/software/kraken2/)
-- Multiqc reports, available here in the multiqc/ directory. 
+- Multiqc reports, available here in the multiqc/ directory.
+
+More information on which samples belong within each sequencing batch can be downloaded [from here](https://github.com/MaGIC-Analytics/Colgate_ONT_16S_analysis/blob/main/docs/ONT_16S_workflow_and_results.nb.html)
