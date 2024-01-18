@@ -1,0 +1,11 @@
+sample_id,fast5_dir,fast5_dirname,ont_barcode
+PLA-4A,/path/to/all_fast5,all_fast5,barcode01
+PLA-4B,/path/to/all_fast5,all_fast5,barcode02
+PLA-4C,/path/to/all_fast5,all_fast5,barcode03
+PLA-4F,/path/to/all_fast5,all_fast5,barcode06
+PLA-4H,/path/to/all_fast5,all_fast5,barcode08
+PLA-5B,/path/to/all_fast5,all_fast5,barcode10
+PLA-5C,/path/to/all_fast5,all_fast5,barcode11
+PLA-5G,/path/to/all_fast5,all_fast5,barcode15
+PLA-6A,/path/to/all_fast5,all_fast5,barcode17
+PLA-6B,/path/to/all_fast5,all_fast5,barcode18
