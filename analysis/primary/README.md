@@ -2,7 +2,7 @@
 
 Primary analysis includes basecalling, barcoding, quality filtering, and taxonomically classifying 16S reads from Oxford Nanopore sequencing. 
 
-## Description:
+## Description
 The pipeline used is from a nextflow workflow: ONT_demux v1.0.0 [accesible here](https://github.com/MessyaszA/ONT_demux)
 
 ## Metadata
