@@ -1,5 +1,22 @@
-# Secondary Analysis
+# Primary Analysis
 
-Secondary analysis is utilizing the primary files (fastqs) through alignment. This should include alignment output and all associated pipeline files. If using something like the [nf-core](https://nf-co.re/pipelines) pipelines, you can essentially put the entire output of that run here. 
+Primary analysis includes basecalling, barcoding, quality filtering, and taxonomically classifying 16S reads from Oxford Nanopore sequencing. 
 
-For something like scRNA, this should include at minimum the input .h5 files and web summary files from cellranger. 
+## Description:
+The pipeline used is from a nextflow workflow: ONT_demux v1.0.0 [accesible here](https://github.com/MessyaszA/ONT_demux)
+
+## Metadata
+Setting up this pipeline for execution involves establishing an appropriate metadata file. This is a csv file that enables parsing the files correctly together and labelling samples appropriately. 
+
+Follow traditional naming restrictions- IE dont use special characters, spaces etc. 
+
+The metadata csv files for each sequencing batch can be found in the metadata_csvs/ directory. 
+
+## Execution Tutorial
+A tutorial on executing ONT_demux can be [found here](https://github.com/MessyaszA/ONT_demux/blob/main/docs/execution_tutorial.md).
+
+## Summary Features:
+- Basecalling with [dorado](https://github.com/nanoporetech/dorado)
+- Demultiplexing (barcoding) with [guppy](https://community.nanoporetech.com/protocols/Guppy-protocol/v/gpb_2003_v1_revt_14dec2018)
+- Sample and trimming QC with [pycoQC](https://adrienleger.com/pycoQC/), [fastp](https://github.com/OpenGene/fastp), [NanoPlot](https://github.com/wdecoster/NanoPlot), and [Chopper](https://github.com/wdecoster/chopper).
+- Predictive QC and contaminant detection with [Kraken2](https://ccb.jhu.edu/software/kraken2/)
