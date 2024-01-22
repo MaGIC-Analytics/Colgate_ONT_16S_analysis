@@ -5,15 +5,20 @@ Primary analysis includes basecalling, barcoding, quality filtering, and taxonom
 ## Description
 The pipeline used is from a nextflow workflow: ONT_demux v1.0.0 [accesible here](https://github.com/MessyaszA/ONT_demux)
 
+## Execution Tutorial
+A tutorial on executing ONT_demux can be [found here](https://github.com/MessyaszA/ONT_demux/blob/main/docs/execution_tutorial.md).
+
+An example execution command via a slurm executor on an HPC is as follows:
+```
+nohup ~/nextflow -bg run MessyaszA/ONT_demux -r main --samplesheet PLA1_PLA2_PLA3_metadata.csv --outdir PLA1_PLA2_PLA3_results/ --barcode_kit SQK-16S024 -profile slurm --gpu_active --gpus 1 > log.txt
+```
+
 ## Metadata
 Setting up this pipeline for execution involves establishing an appropriate metadata file. This is a csv file that enables parsing the files correctly together and labelling samples appropriately. 
 
 Follow traditional naming restrictions- IE dont use special characters, spaces etc. 
 
-The metadata csv files for each sequencing batch can be found in the metadata_csvs/ directory. 
-
-## Execution Tutorial
-A tutorial on executing ONT_demux can be [found here](https://github.com/MessyaszA/ONT_demux/blob/main/docs/execution_tutorial.md).
+The metadata csv files for each sequencing batch can be [found here](https://github.com/MaGIC-Analytics/Colgate_ONT_16S_analysis/tree/main/analysis/primary/metadata_csvs). 
 
 ## Summary Features:
 - Basecalling with [dorado](https://github.com/nanoporetech/dorado)
