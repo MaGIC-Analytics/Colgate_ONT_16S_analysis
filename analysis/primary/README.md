@@ -8,7 +8,7 @@ The pipeline used is from a nextflow workflow: ONT_demux v1.0.0 [accesible here]
 ## Execution Tutorial
 A tutorial on executing ONT_demux can be [found here](https://github.com/MessyaszA/ONT_demux/blob/main/docs/execution_tutorial.md).
 
-An example execution command via a slurm executor on an HPC is as follows:
+An example execution command (for one of the sequencing batches) via a slurm executor on an HPC is as follows:
 ```
 nohup ~/nextflow -bg run MessyaszA/ONT_demux -r main --samplesheet PLA1_PLA2_PLA3_metadata.csv --outdir PLA1_PLA2_PLA3_results/ --barcode_kit SQK-16S024 -profile slurm --gpu_active --gpus 1 > log.txt
 ```
